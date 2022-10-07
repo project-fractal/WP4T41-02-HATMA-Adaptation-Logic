@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER Adaptation_Logic
+	OPTION supported_peripherals = (Adaptation_Logic);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = Adaptation_Logic;
+END DRIVER
